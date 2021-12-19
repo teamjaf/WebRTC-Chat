@@ -2,9 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>CSE310 WebRTC Chat </title>
+    <script src="client.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<div class="content">
+    <div class="logobox">
+        <span class="appname">CSE310 Chat</span>
+    </div>
+    <div class="form">
+        <div class="form-body">
+            <span class="login">Login</span>
+            <form action="#">
+                <label for="email">Email</label>
+                <input type="text" class="email"><br/>
+                <label for="password">Password</label>
+                <input type="password" class="password"><br/>
+                <div class="remember-me">
+                    <input type="checkbox">
+                    <label for="checkbox" class="remember">Remember Me</label>
+                </div>
+                <input type="submit" class="signin" value="Sign In">
+            </form>
+            <span>New User? Create Account</span>
+        </div>
+    </div>
+</div>
 </body>
 </html>
